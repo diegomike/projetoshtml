@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title> Formulario Cadastro - HTML </title>
+	<body>
+		<P><FONT FACE='VERDANA' COLOR='#0080FF' SIZE='5'> Formulário para Cadastro </FONT></P>
+
+		<FORM name="Form1" METHOD="post" action="envia.php">
+			<table width="100%" border="0" cellspacing="5">
+				<tbody>
+					<tr>
+						<td width="8%">Nome</td>
+						<td width="85%">
+			
+			<INPUT TYPE='text' NAME="Nome"></td>
+					</tr>
+			<!--Nome da pessoa formato texto com maximo 30 caracteres e 60 de tamnaho-->
+
+
+			<tr>
+				<td width="8%">E-mail</td>
+				<td width="85%">
+	
+	<INPUT TYPE='text' NAME="email"></td>
+			</tr>
+			<!--email formato texto com maximo 30 caracteres e 60 de tamnaho-->
+
+			<tr>
+				<td>Sexo</td>
+				<td>
+	
+	<INPUT TYPE='radio' NAME="sexo" value='fem'> Feminino
+		<INPUT TYPE='radio' NAME="sexo" value='Masc'> Masculino
+				</td>
+			</tr>
+			<!--Sexo baseado em masculino e feminio utilizando seleção de opção única-->
+			<!--Sexo baseado em masculino e feminio utilizando seleção de opção única-->
+
+			<tr>
+				<td>RG</td>
+				<td>
+	
+	<INPUT TYPE='text' NAME="RG">
+				</td>
+			</tr>
+			<!--RG formato texto tamanho 30 e máximo 10 caracteres-->
+
+
+			<tr>
+				<td>CPF</td>
+				<td>
+		<Input TYPE="'text" name="CPF">
+				</td>
+			</tr>
+			<!--CPF formato texto tamanho 30 e máximo 12 caracteres-->
+
+		<tr>
+			<td>Login</td>
+			<td>
+				<input type="Text" name="login">
+			</td>
+		</tr>
+			<!--login formato texto tamanho 30 e máximo 20 caracteres-->
+
+		<tr>
+			<td>Senha</td>
+			<td>
+				<input type="password" name="Senha">
+			</td>
+		</tr>
+			<!--Senha formato password tamanho 30 e máximo 10 caracteres-->
+
+			<tr>
+				<td>
+					<INPUT TYPE=submit name="enviar" VALUE='Enviar'>
+				</td>
+			<!--botão enviar para que as informações do formulário sejam enviadas-->
+				<td>
+					<INPUT TYPE=reset name="enviar" VALUE='Limpar'>
+				</td>
+			</tr>
+			<!--Botão reset para que realize a exclusão de todas as informações preenchidas nos campos anteriores-->
+
+				</tbody>	
+			</table>
+		</FORM>
+	</body>
+</html>
